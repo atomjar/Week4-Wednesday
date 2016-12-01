@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+    <h1>Where on Earth are you?</h1>
+
+    <section>
+        <div id="submit">
+            <input id="address" placeholder='Enter Your Address'></input>
+            <button onclick="run ()" style="color: #161d1e">Geolocate Yourself</button>
+        </div>
+
+        <div id="display">
+            <span id="lat"></span>
+            <span id="lng"></span>
+        </div>
+    </section>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
